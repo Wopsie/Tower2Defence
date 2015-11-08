@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Tower : MonoBehaviour 
+public class Tower : Health 
 {
     [SerializeField]
     private Transform enemy;

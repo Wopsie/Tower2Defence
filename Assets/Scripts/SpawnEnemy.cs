@@ -6,7 +6,7 @@ public class SpawnEnemy : MonoBehaviour
 {
     public GameObject enemy;
     public GameObject forceField;
-    private int i;
+    private int spawnCooldown;
 
     public enum Spawns
     {
@@ -29,17 +29,22 @@ public class SpawnEnemy : MonoBehaviour
         //spawn enemy on buttonpress
         if(Input.GetKey(KeyCode.Space))
         {
-            i++;
             Spawner();
         }
 	}
 
+    void FixedUpate()
+    {
+        spawnCooldown--;
+    }
+
     void Spawner()
     {
-        //if(i <= 15)
-        //{
-            Debug.Log(i);
+        if(spawnCooldown == 0)
+        {
             var clone = (GameObject)Instantiate(spawner[spawns], transform.position, Quaternion.identity);
-        //}
+            spawnCooldown = 0;
+        }
+        
     }
 }

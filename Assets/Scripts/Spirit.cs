@@ -1,23 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Health : MonoBehaviour {
-
-	protected int baseHealth = 5;
+public class Spirit : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+	
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
+	
 	}
-
-	void healthChecker()
-	{
-
-	}
-
 }
