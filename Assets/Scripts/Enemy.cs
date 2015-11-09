@@ -13,19 +13,16 @@ public class Enemy : Health
 
     void Update()
     {
+        //move enemy down
         rb.AddForce(transform.up / -5f);
     }
 
+    //check for collision
     void OnCollisionEnter2D(Collision2D coll)
     {
-
-        Debug.Log("collision happes");
-        //Debug.Log("Enemie.cs: " + baseHealth);
-        
         if(coll.gameObject.tag == "Bullet")
         { 
             baseHealth--;
-            Debug.Log("getting shot");
 
             if(baseHealth == 0)
             {

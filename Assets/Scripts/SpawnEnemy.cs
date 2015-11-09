@@ -8,6 +8,8 @@ public class SpawnEnemy : MonoBehaviour
     public GameObject forceField;
     private int spawnCooldown;
 
+    //private int enemyGen = Random.Range(0,3);
+
     public enum Spawns
     {
         Spirit,
@@ -42,9 +44,8 @@ public class SpawnEnemy : MonoBehaviour
     {
         if(spawnCooldown == 0)
         {
-            var clone = (GameObject)Instantiate(spawner[spawns], transform.position, Quaternion.identity);
             spawnCooldown = 0;
+            var clone = (GameObject)Instantiate(spawner[spawns], transform.position, Quaternion.identity);
         }
-        
     }
 }
