@@ -13,6 +13,11 @@ public class Bullet : MonoBehaviour {
             //if no enemy is in range destroy bullet
             Destroy(gameObject);
         }
+
+        //rotate bullet to intruder
+        Quaternion rotation = Quaternion.LookRotation
+            (Turret.intruder.transform.position - transform.position, transform.TransformDirection(Vector3.up));
+        transform.rotation = new Quaternion(0, 0, rotation.z, rotation.w);
 	}
 
     void OnCollisionEnter2D(Collision2D coll)
@@ -22,7 +27,5 @@ public class Bullet : MonoBehaviour {
         {
             Destroy(gameObject);
         }
-
-        Debug.Log(coll.gameObject.tag);
     }
 }

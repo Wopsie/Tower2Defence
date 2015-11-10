@@ -4,11 +4,13 @@ using System.Collections;
 public class Enemy : Health
 {
     public Rigidbody2D rb;
+    
 
     void Start()
     {
         //Debug.Log(baseHealth);
         rb = GetComponent<Rigidbody2D>();
+        baseHealth = 5;
     }
 
     void Update()

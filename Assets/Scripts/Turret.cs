@@ -56,7 +56,6 @@ public class Turret : MonoBehaviour
                     var clone = (GameObject)Instantiate(shooter[shoot], transform.position, Quaternion.identity);
                 }
             }
-
             intruder = turretRange.transform;
         }
     }
@@ -69,23 +68,7 @@ public class Turret : MonoBehaviour
     void OnTriggerStay2D(Collider2D coll)
     {
         /*
-        enemyInRange = true;
-        
-        //check if enemy is in range & if turret can shoot
-        if(enemyInRange = true && shotCooldown <= 0)
-        {
-            if(upgradeCount == 0)
-            {
-                shotCooldown = 5;
-                //spawn bullet
-                var clone = (GameObject)Instantiate(shooter[shoot], transform.position, Quaternion.identity);
-            }else if(upgradeCount == 1)
-            {
-                shotCooldown = 5;
-                var clone = (GameObject)Instantiate(shooter[shoot], transform.position, Quaternion.identity);
-            }
-            intruder = coll.gameObject.transform;
-        }
+        intruder = coll.gameObject.transform;
         */
     }
 

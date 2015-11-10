@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Health : MonoBehaviour {
 
-	protected int baseHealth = 5;
+	protected int baseHealth;
 
 	// Use this for initialization
 	void Start () {
