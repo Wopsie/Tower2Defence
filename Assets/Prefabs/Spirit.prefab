@@ -12,7 +12,7 @@ GameObject:
   - 50: {fileID: 5022330}
   - 114: {fileID: 11401350}
   - 58: {fileID: 5855312}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spirit
   m_TagString: Spirit
   m_Icon: {fileID: 0}
@@ -72,6 +72,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 5022330}
+  playerbase: {fileID: 170304, guid: abdf04de8d9cdb44aba8248a7443ddf2, type: 2}
+  eastBase: {fileID: 103848, guid: 97309624e67ee58468ea208c3d794318, type: 2}
+  westBase: {fileID: 153818, guid: dc449f3531a29174290355cc2183213f, type: 2}
+  northBase: {fileID: 182084, guid: 8ee1dac6e7fc2344592a453a9a026a3c, type: 2}
 --- !u!212 &21288816
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -113,6 +117,30 @@ Prefab:
       propertyPath: m_TagString
       value: Spirit
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playerbase
+      value: 
+      objectReference: {fileID: 170304, guid: abdf04de8d9cdb44aba8248a7443ddf2, type: 2}
+    - target: {fileID: 0}
+      propertyPath: eastBase
+      value: 
+      objectReference: {fileID: 103848, guid: 97309624e67ee58468ea208c3d794318, type: 2}
+    - target: {fileID: 0}
+      propertyPath: northBase
+      value: 
+      objectReference: {fileID: 182084, guid: 8ee1dac6e7fc2344592a453a9a026a3c, type: 2}
+    - target: {fileID: 0}
+      propertyPath: westBase
+      value: 
+      objectReference: {fileID: 153818, guid: dc449f3531a29174290355cc2183213f, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 106528}

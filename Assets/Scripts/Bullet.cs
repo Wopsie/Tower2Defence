@@ -3,12 +3,20 @@ using System.Collections;
 
 public class Bullet : MonoBehaviour {
 
+
+    private Transform target;
+
+    void Start()
+    {
+        target = Turret.intruder;
+    }
+
 	void Update () 
     {
-        if(Turret.intruder != null)
+        if(target != null)
         {
             //move bullet towards enemy
-            transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), Turret.intruder.position, 5f * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), target.position, 5f * Time.deltaTime);
         }else{
             //if no enemy is in range destroy bullet
             Destroy(gameObject);

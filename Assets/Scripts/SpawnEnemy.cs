@@ -5,10 +5,13 @@ using System.Collections.Generic;
 public class SpawnEnemy : MonoBehaviour 
 {
     public GameObject enemy;
-    public GameObject forceField;
-    private int spawnCooldown;
+    //public GameObject forceField;
+    private float spawnCooldown;
 
-    //private int enemyGen = Random.Range(0,3);
+    public GameObject thisBase;
+    public GameObject leftBase;
+    public GameObject rightBase;
+    public GameObject straightBase;
 
     public enum Spawns
     {
@@ -23,28 +26,28 @@ public class SpawnEnemy : MonoBehaviour
     {
         //add objects to dictionary
         spawner.Add(Spawns.Spirit, enemy);
-        spawner.Add(Spawns.Barrier, forceField);
+        //spawner.Add(Spawns.Barrier, forceField);
+
 	}
 	
 	void Update () 
     {
         //spawn enemy on buttonpress
-        if(Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && spawnCooldown <= 0)
         {
             Spawner();
         }
+        //Debug.Log(Input.GetKey(KeyCode.Space));
+        spawnCooldown -= Time.deltaTime;
+        if (spawnCooldown <= 0)
+            spawnCooldown = 0;
 	}
-
-    void FixedUpate()
-    {
-        spawnCooldown--;
-    }
 
     void Spawner()
     {
-        if(spawnCooldown == 0)
+        spawnCooldown = 3;
+        for(int i = 0; i < 5; i++)
         {
-            spawnCooldown = 0;
             var clone = (GameObject)Instantiate(spawner[spawns], transform.position, Quaternion.identity);
         }
     }
