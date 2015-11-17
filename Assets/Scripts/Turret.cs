@@ -16,6 +16,10 @@ public class Turret : MonoBehaviour
 
     private int upgradeCount = 0;
 
+    private int layerMask;
+
+    
+
     public enum Projectile
     {
         Bullet
@@ -28,36 +32,12 @@ public class Turret : MonoBehaviour
     {
         enemyInRange = false;
         shooter.Add(Projectile.Bullet, bullet);
+        layerMask = LayerMask.GetMask("Enemy");
     }
 
     void Update()
     {
-        //establish turret range
-        Collider2D turretRange = Physics2D.OverlapCircle(transform.position, 1.6f);
-
-        //check if enemy is in range
-        if (turretRange.gameObject.tag == "Spirit")
-        {
-            enemyInRange = true;
-            
-            //check if can shoot
-            if (enemyInRange = true && shotCooldown <= 0)
-            {
-                if (upgradeCount == 0)
-                {
-                    shotCooldown = 8;
-
-                    //spawn bullet
-                    var clone = (GameObject)Instantiate(shooter[shoot], transform.position, Quaternion.identity);
-                }
-                else if (upgradeCount == 1)
-                {
-                    shotCooldown = 5;
-                    var clone = (GameObject)Instantiate(shooter[shoot], transform.position, Quaternion.identity);
-                }
-            }
-            intruder = turretRange.transform;
-        }
+        Shoot();
     }
 
     void FixedUpdate()
@@ -72,9 +52,32 @@ public class Turret : MonoBehaviour
         */
     }
 
-    void Upgrader()
+    void Shoot()
     {
-        upgradeCount++;
+        Collider2D turretRange = Physics2D.OverlapCircle(transform.position, 1.6f, layerMask);
+
+        if (turretRange.gameObject.tag == "Spirit")
+        {
+            enemyInRange = true;
+
+            //check if can shoot
+            if (enemyInRange = true && shotCooldown <= 0)
+            {
+                if (upgradeCount == 0)
+                {
+                    shotCooldown = 6;
+
+                    //spawn bullet
+                    var clone = (GameObject)Instantiate(shooter[shoot], transform.position, Quaternion.identity);
+                }
+                else if (upgradeCount == 1)
+                {
+                    shotCooldown = 5;
+                    var clone = (GameObject)Instantiate(shooter[shoot], transform.position, Quaternion.identity);
+                }
+            }
+            intruder = turretRange.transform;
+        }
     }
 
     void OnDrawGizmos()
