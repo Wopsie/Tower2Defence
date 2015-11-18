@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ChangeScene : MonoBehaviour 
-{
-	void ChangeToScene(int sceneToChangeTo){
-		Application.LoadLevel(sceneToChangeTo);
+public class ChangeScene : MonoBehaviour {
+	
+	public void ChangeToScene (int sceneToChangeTo)
+	{
+		Application.LoadLevel (sceneToChangeTo);
 	}
 }
