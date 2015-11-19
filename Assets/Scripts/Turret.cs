@@ -56,7 +56,7 @@ public class Turret : MonoBehaviour
     {
         Collider2D turretRange = Physics2D.OverlapCircle(transform.position, 1.6f, layerMask);
 
-        if (turretRange.gameObject.tag == "Spirit")
+        if (turretRange.gameObject.tag == "Spirit" && turretRange != null)
         {
             enemyInRange = true;
 

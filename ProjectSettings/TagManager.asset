@@ -12,6 +12,18 @@ TagManager:
   - WestBase
   - Spirit
   - Bullet
+  - EastButton
+  - WestButton
+  - NorthButton
+  - SouthButton
+  - EastSpawn
+  - WestSpawn
+  - NorthSpawn
+  - SouthSpawn
+  - EastSpirit
+  - WestSpirit
+  - NorthSpirit
+  - SouthSpirit
   layers:
   - Default
   - TransparentFX

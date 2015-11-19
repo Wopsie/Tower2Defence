@@ -4,14 +4,15 @@ using System.Collections.Generic;
 
 public class SpawnEnemy : MonoBehaviour 
 {
-    public GameObject enemy;
-    //public GameObject forceField;
-    private float spawnCooldown;
+    [SerializeField]    private GameObject enemy;
+    //[SerializeField] private GameObject forceField;
+    protected float spawnCooldown;
 
-    public GameObject thisBase;
-    public GameObject leftBase;
-    public GameObject rightBase;
-    public GameObject straightBase;
+    private int spawnerID;
+
+    private Transform thisBase;
+
+    public static Transform eTarget;
 
     public enum Spawns
     {
@@ -19,8 +20,8 @@ public class SpawnEnemy : MonoBehaviour
         Barrier
     }
 
-    public Dictionary<Spawns, GameObject> spawner = new Dictionary<Spawns, GameObject>();
-    private Spawns spawns;
+    protected Dictionary<Spawns, GameObject> spawner = new Dictionary<Spawns, GameObject>();
+    protected Spawns spawns;
 
 	void Start () 
     {
@@ -28,24 +29,58 @@ public class SpawnEnemy : MonoBehaviour
         spawner.Add(Spawns.Spirit, enemy);
         //spawner.Add(Spawns.Barrier, forceField);
 
+        //identify object
+        switch(gameObject.tag)
+        {
+            case "EastSpawn":
+                spawnerID = 1;
+                break;
+            case "WestSpawn":
+                spawnerID = 2;
+                break;
+            case "NorthSpawn":
+                spawnerID = 3;
+                break;
+            case "SouthSpawn":
+                spawnerID = 4;
+                break;
+        }
 	}
 	
-	void Update () 
+	void Update ()
     {
+        float randomTarget = Random.Range(0f, 3f);
+
+        if(spawnCooldown <= 0 && randomTarget == 0f)
+        {
+            //attack straight base
+        }else if(spawnCooldown <= 0 && randomTarget == 1f)
+        {
+            //attack base on left
+        }else if(spawnCooldown <= 0 && randomTarget == 2f)
+        {
+            //attack base on right
+        }else if(spawnCooldown <= 0 && randomTarget == 3f)
+        {
+            //do nothing
+        }
+
+        float randomSpawn = Random.Range(0f, 1f);
+
         //spawn enemy on buttonpress
-        if (Input.GetKeyDown(KeyCode.Space) && spawnCooldown <= 0)
+        if (spawnCooldown <= 0 && randomSpawn == 1)
         {
             Spawner();
         }
-        //Debug.Log(Input.GetKey(KeyCode.Space));
         spawnCooldown -= Time.deltaTime;
         if (spawnCooldown <= 0)
             spawnCooldown = 0;
 	}
 
+    //spawn enemy fucntion
     void Spawner()
     {
-        spawnCooldown = 3;
+        spawnCooldown = 2;
         for(int i = 0; i < 5; i++)
         {
             var clone = (GameObject)Instantiate(spawner[spawns], transform.position, Quaternion.identity);
