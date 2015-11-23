@@ -9,14 +9,14 @@ public class Turret : MonoBehaviour
     private int spiritCount;
     [SerializeField]    private GameObject bullet;
 
+    [SerializeField]    private string friendly;
+
     //public Collider2D turretRange;
 
     public static Transform intruder;
 
     private int upgradeCount = 0;
     private int layerMask;
-
-    
 
     public enum Projectile
     {
@@ -49,7 +49,7 @@ public class Turret : MonoBehaviour
         //determine turret range with overlap circle
         Collider2D turretRange = Physics2D.OverlapCircle(transform.position, 1.95f, layerMask);
 
-        if (turretRange.gameObject.tag == "Enemy" && turretRange != null)
+        if (turretRange.gameObject.tag != friendly && turretRange != null)
         {
             enemyInRange = true;
 
@@ -71,6 +71,10 @@ public class Turret : MonoBehaviour
             }
             //determine the target
             intruder = turretRange.transform;
+        }
+        else
+        {
+            enemyInRange = false;
         }
     }
 
