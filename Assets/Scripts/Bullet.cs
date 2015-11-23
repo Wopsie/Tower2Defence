@@ -3,11 +3,11 @@ using System.Collections;
 
 public class Bullet : MonoBehaviour {
 
-
     private Transform target;
 
     void Start()
     {
+        //set target
         target = Turret.intruder;
     }
 
@@ -22,7 +22,7 @@ public class Bullet : MonoBehaviour {
             Destroy(gameObject);
         }
 
-        //rotate bullet to intruder
+        //rotate bullet to target
         Quaternion rotation = Quaternion.LookRotation
             (Turret.intruder.transform.position - transform.position, transform.TransformDirection(Vector3.up));
         transform.rotation = new Quaternion(0, 0, rotation.z, rotation.w);

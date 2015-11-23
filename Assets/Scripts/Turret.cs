@@ -7,15 +7,13 @@ public class Turret : MonoBehaviour
     private bool enemyInRange;
     private int shotCooldown;
     private int spiritCount;
-    [SerializeField]
-    private GameObject bullet;
+    [SerializeField]    private GameObject bullet;
 
     //public Collider2D turretRange;
 
     public static Transform intruder;
 
     private int upgradeCount = 0;
-
     private int layerMask;
 
     
@@ -32,6 +30,7 @@ public class Turret : MonoBehaviour
     {
         enemyInRange = false;
         shooter.Add(Projectile.Bullet, bullet);
+        //set layer on wich to check for enemy
         layerMask = LayerMask.GetMask("Enemy");
     }
 
@@ -44,19 +43,13 @@ public class Turret : MonoBehaviour
     {
         shotCooldown--;
     }
-    
-    void OnTriggerStay2D(Collider2D coll)
-    {
-        /*
-        intruder = coll.gameObject.transform;
-        */
-    }
 
     void Shoot()
     {
-        Collider2D turretRange = Physics2D.OverlapCircle(transform.position, 1.6f, layerMask);
+        //determine turret range with overlap circle
+        Collider2D turretRange = Physics2D.OverlapCircle(transform.position, 1.95f, layerMask);
 
-        if (turretRange.gameObject.tag == "Spirit" && turretRange != null)
+        if (turretRange.gameObject.tag == "Enemy" && turretRange != null)
         {
             enemyInRange = true;
 
@@ -76,13 +69,15 @@ public class Turret : MonoBehaviour
                     var clone = (GameObject)Instantiate(shooter[shoot], transform.position, Quaternion.identity);
                 }
             }
+            //determine the target
             intruder = turretRange.transform;
         }
     }
 
+    //make turret range visible
     void OnDrawGizmos()
     {
         Gizmos.color = Color.black;
-        Gizmos.DrawWireSphere(transform.position, 1.6f);
+        Gizmos.DrawWireSphere(transform.position, 1.95f);
     }
 }

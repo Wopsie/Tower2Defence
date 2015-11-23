@@ -8,9 +8,10 @@ public class SpawnEnemy : MonoBehaviour
     //[SerializeField] private GameObject forceField;
     protected float spawnCooldown;
 
-    private int spawnerID;
-
     private Transform thisBase;
+    [SerializeField]    private Transform straightBase;
+    [SerializeField]    private Transform leftBase;
+    [SerializeField]    private Transform rightBase;
 
     public static Transform eTarget;
 
@@ -29,58 +30,50 @@ public class SpawnEnemy : MonoBehaviour
         spawner.Add(Spawns.Spirit, enemy);
         //spawner.Add(Spawns.Barrier, forceField);
 
-        //identify object
-        switch(gameObject.tag)
-        {
-            case "EastSpawn":
-                spawnerID = 1;
-                break;
-            case "WestSpawn":
-                spawnerID = 2;
-                break;
-            case "NorthSpawn":
-                spawnerID = 3;
-                break;
-            case "SouthSpawn":
-                spawnerID = 4;
-                break;
-        }
+        //identify self
+        thisBase = gameObject.transform;
 	}
 	
 	void Update ()
     {
-        float randomTarget = Random.Range(0f, 3f);
+        //pick random target
+        int targeter = Random.Range(0, 3);
 
-        if(spawnCooldown <= 0 && randomTarget == 0f)
+        Debug.Log(gameObject + " target is: " + targeter);
+        if (spawnCooldown <= 0 && targeter == 0)
         {
             //attack straight base
-        }else if(spawnCooldown <= 0 && randomTarget == 1f)
-        {
-            //attack base on left
-        }else if(spawnCooldown <= 0 && randomTarget == 2f)
-        {
-            //attack base on right
-        }else if(spawnCooldown <= 0 && randomTarget == 3f)
-        {
-            //do nothing
-        }
-
-        float randomSpawn = Random.Range(0f, 1f);
-
-        //spawn enemy on buttonpress
-        if (spawnCooldown <= 0 && randomSpawn == 1)
-        {
+            eTarget = straightBase;
             Spawner();
         }
+        else if (spawnCooldown <= 0 && targeter == 1)
+        {
+            //attack base on left
+            eTarget = leftBase;
+            Spawner();
+        }
+        else if (spawnCooldown <= 0 && targeter == 2)
+        {
+            //attack base on right
+            eTarget = rightBase;
+            Spawner();
+        }
+        else if (spawnCooldown <= 0 && targeter == 3)
+        {
+            //do nothing
+            Debug.Log("doing nothing");
+        }
+
+        //decrement spawner cooldown
         spawnCooldown -= Time.deltaTime;
         if (spawnCooldown <= 0)
             spawnCooldown = 0;
 	}
 
-    //spawn enemy fucntion
+    //spawn enemy function
     void Spawner()
     {
-        spawnCooldown = 2;
+        spawnCooldown = 5;
         for(int i = 0; i < 5; i++)
         {
             var clone = (GameObject)Instantiate(spawner[spawns], transform.position, Quaternion.identity);

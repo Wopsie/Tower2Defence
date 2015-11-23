@@ -8,6 +8,7 @@ public class Spirit : Enemy {
 
 	void Awake () 
     {
+        //set target
         playerTarget = DirectionButton.pTarget;
 	}
 	

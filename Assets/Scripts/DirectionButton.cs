@@ -8,7 +8,6 @@ public class DirectionButton : MonoBehaviour
 
 	void Start () 
     {
-
         //identify button
 	    switch(gameObject.tag)
         {
@@ -27,6 +26,7 @@ public class DirectionButton : MonoBehaviour
         }
 	}
 
+    //check whenever button is clicked
     void OnMouseDown()
     {
         switch(buttonID)
@@ -46,6 +46,7 @@ public class DirectionButton : MonoBehaviour
         }
     }
 
+    //reset target when button is released
     void OnMouseUp()
     {
         pTarget = null;

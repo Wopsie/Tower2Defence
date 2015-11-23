@@ -5,7 +5,6 @@ public class SpawnTroops : SpawnEnemy {
 
     [SerializeField]    private GameObject spirit;
 
-	// Use this for initialization
 	void Start () 
     {
         spawner.Add(Spawns.Spirit, spirit);
@@ -18,6 +17,8 @@ public class SpawnTroops : SpawnEnemy {
         {
             Spawner();
         }
+
+        //decrement spawner cooldown
         spawnCooldown -= Time.deltaTime;
         if (spawnCooldown <= 0)
             spawnCooldown = 0;

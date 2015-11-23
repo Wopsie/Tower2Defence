@@ -13,10 +13,12 @@ public class Enemy : Health
     protected Transform southBase;
     protected Transform northBase;
 
-    private Transform playerTarget;
+    private Transform Target;
 
     void Start()
     {
+        Target = SpawnEnemy.eTarget;
+
         rb = GetComponent<Rigidbody2D>();
         baseHealth = 2;
 
@@ -26,21 +28,16 @@ public class Enemy : Health
         northBase = GameObject.FindGameObjectWithTag("NorthBase").transform;  
     }
 
-    void Awake()
-    {
-        playerTarget = DirectionButton.pTarget;
-    }
-
     void Update()
     {
-        if(playerTarget != null)
+        if (Target != null)
         {
             //move enemy
-            transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), playerTarget.position, 2f * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), Target.position, 2f * Time.deltaTime);
 
             //turn enemy to targeted base
             Quaternion rotation = Quaternion.LookRotation
-                (playerTarget.position - transform.position, transform.TransformDirection(Vector3.up));
+                (Target.position - transform.position, transform.TransformDirection(Vector3.up));
             transform.rotation = new Quaternion(0, 0, rotation.z, rotation.w);
         }
         else
