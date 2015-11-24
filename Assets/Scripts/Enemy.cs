@@ -5,13 +5,14 @@ using System.Collections.Generic;
 public class Enemy : Health
 {
     private Rigidbody2D rb;
-    protected float speed;
+    private float speed;
 
     //base enemy originates from
     private GameObject owner;
 
-    private Transform Target;
+    [HideInInspector]   public Transform Target;
 
+    private SpawnEnemy spawnEnemy;
     void Start()
     {
         //identify owner
@@ -26,9 +27,11 @@ public class Enemy : Health
             owner = GameObject.FindGameObjectWithTag("WestBase");
         }
 
+
+        //spawnEnemy = owner.GetComponent<SpawnEnemy>();
         //set target
         //Target = owner.GetComponentInChildren<SpawnEnemy>().eTarget;
-        Target = SpawnEnemy.eTarget;
+        //Target = spawnEnemy.Target;
         
 
         rb = GetComponent<Rigidbody2D>();

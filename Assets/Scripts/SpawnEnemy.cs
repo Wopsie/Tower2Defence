@@ -13,7 +13,7 @@ public class SpawnEnemy : MonoBehaviour
     [SerializeField]    private Transform leftBase;
     [SerializeField]    private Transform rightBase;
 
-    public static Transform eTarget;
+    private Transform eTarget;
 
     public enum Spawns
     {
@@ -39,7 +39,7 @@ public class SpawnEnemy : MonoBehaviour
         //pick random target
         int targeter = Random.Range(0, 3);
 
-        Debug.Log(gameObject + " target is: " + targeter);
+        //Debug.Log(gameObject + " target is: " + targeter);
         if (spawnCooldown <= 0 && targeter == 0)
         {
             //attack straight base
@@ -77,6 +77,7 @@ public class SpawnEnemy : MonoBehaviour
         for(int i = 0; i < 5; i++)
         {
             var clone = (GameObject)Instantiate(spawner[spawns], transform.position, Quaternion.identity);
+            clone.GetComponent<Enemy>().Target = eTarget;
         }
     }
 }
