@@ -12,8 +12,6 @@ public class Turret : MonoBehaviour
 
     [SerializeField]    private string friendly;
 
-    //public Collider2D turretRange;
-
     public static Transform intruder;
 
     private int upgradeCount = 0;

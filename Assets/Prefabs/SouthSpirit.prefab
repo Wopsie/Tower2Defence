@@ -12,7 +12,7 @@ GameObject:
   - 114: {fileID: 11497894}
   - 50: {fileID: 5007298}
   - 58: {fileID: 5868112}
-  - 95: {fileID: 9533006}
+  - 95: {fileID: 9568004}
   m_Layer: 0
   m_Name: SouthSpirit
   m_TagString: SouthSpirit
@@ -61,7 +61,7 @@ CircleCollider2D:
   m_Offset: {x: .0900000036, y: 0}
   serializedVersion: 2
   m_Radius: .0535497665
---- !u!95 &9533006
+--- !u!95 &9568004
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
@@ -70,7 +70,7 @@ Animator:
   m_GameObject: {fileID: 104184}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a1c811272a725574d981cd06769992fa, type: 2}
+  m_Controller: {fileID: 9100000, guid: 194d04a68c3040a4997b1fa9cc0aa2d3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -112,8 +112,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 2
+  m_SortingLayerID: -1017600867
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 78ecb510cee827a4d8f9d9169c6ca68d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
@@ -137,7 +137,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6e16da5a5e9e2144fa0968d7ac827e9b,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_SortingLayerID
+      value: -1017600867
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
