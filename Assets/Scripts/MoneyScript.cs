@@ -2,22 +2,26 @@
 using System.Collections;
 
 public class MoneyScript : MonoBehaviour {
-
-	//For defending your base
-	private int MoneyCounter = 0;
-	//For attacking another base
-	private int CreditCounter = 0;
-
-	// Use this for initialization
-	void Start () {
 	
-	}
-	
-	// Update is called once per frame
-	void Update () {
+	public int MoneyCounter = 0; //For defending your base
+	public int CreditCounter = 0; //For attacking another base
+
+	public void AddMoney(){
 		MoneyCounter++;
 		Debug.Log("Money: " + MoneyCounter);
 	}
+
+	public void AddCredits(){
+		CreditCounter++;
+		Debug.Log("Credits: " + CreditCounter);
+
+	}
+
+	void Update () {
+
+	}
+
+
 
 
 }
