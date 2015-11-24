@@ -252,11 +252,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 477202, guid: d29f105332154e34d81495d646404ac8, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: .707106829
       objectReference: {fileID: 0}
     - target: {fileID: 477202, guid: d29f105332154e34d81495d646404ac8, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: .707106709
       objectReference: {fileID: 0}
     - target: {fileID: 477202, guid: d29f105332154e34d81495d646404ac8, type: 2}
       propertyPath: m_RootOrder
@@ -1106,19 +1106,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 477202, guid: d29f105332154e34d81495d646404ac8, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: .707106829
       objectReference: {fileID: 0}
     - target: {fileID: 477202, guid: d29f105332154e34d81495d646404ac8, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: .707106709
       objectReference: {fileID: 0}
     - target: {fileID: 477202, guid: d29f105332154e34d81495d646404ac8, type: 2}
       propertyPath: m_RootOrder
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 11425500, guid: d29f105332154e34d81495d646404ac8, type: 2}
-      propertyPath: friendly
-      value: SouthSpirit
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d29f105332154e34d81495d646404ac8, type: 2}

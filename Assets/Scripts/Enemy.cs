@@ -7,25 +7,32 @@ public class Enemy : Health
     private Rigidbody2D rb;
     protected float speed;
 
-    //base transforms
-    protected Transform eastBase;
-    protected Transform westBase;
-    protected Transform southBase;
-    protected Transform northBase;
+    //base enemy originates from
+    private GameObject owner;
 
     private Transform Target;
 
     void Start()
     {
+        //identify owner
+        if(gameObject.tag == "NorthEnemy")
+        {
+            owner = GameObject.FindGameObjectWithTag("NorthBase");
+        }else if(gameObject.tag == "EastEnemy")
+        {
+            owner = GameObject.FindGameObjectWithTag("EastBase");
+        }else if (gameObject.tag == "WestEnemy")
+        {
+            owner = GameObject.FindGameObjectWithTag("WestBase");
+        }
+
+        //set target
+        //Target = owner.GetComponentInChildren<SpawnEnemy>().eTarget;
         Target = SpawnEnemy.eTarget;
+        
 
         rb = GetComponent<Rigidbody2D>();
         baseHealth = 2;
-
-        eastBase = GameObject.FindGameObjectWithTag("EastBase").transform;
-        westBase = GameObject.FindGameObjectWithTag("WestBase").transform;
-        southBase = GameObject.FindGameObjectWithTag("PlayerBase").transform;
-        northBase = GameObject.FindGameObjectWithTag("NorthBase").transform;  
     }
 
     void Update()

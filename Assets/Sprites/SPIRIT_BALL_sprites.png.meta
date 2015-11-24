@@ -1,34 +1,32 @@
 fileFormatVersion: 2
-guid: 9e9682820eff66742870c976f7ab7e54
-timeCreated: 1448307548
+guid: 1556e31099b676e4ab7ae5e2a3fcef97
+timeCreated: 1448292394
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Holding_spirit_loop_0
-    21300002: Holding_spirit_loop_1
-    21300004: Holding_spirit_loop_2
-    21300006: Holding_spirit_loop_3
-    21300008: Holding_spirit_loop_4
-    21300010: Holding_spirit_loop_5
-    21300012: Holding_spirit_loop_6
-    21300014: Holding_spirit_loop_7
-    21300016: Holding_spirit_loop_8
-    21300018: Holding_spirit_loop_9
-    21300020: Holding_spirit_loop_10
-    21300022: Holding_spirit_loop_11
-    21300024: Holding_spirit_loop_12
-    21300026: Holding_spirit_loop_13
-    21300028: Holding_spirit_loop_14
-    21300030: Holding_spirit_loop_15
-    21300032: Holding_spirit_loop_16
-    21300034: Holding_spirit_loop_17
-    21300036: Holding_spirit_loop_18
-    21300038: Holding_spirit_loop_19
-    21300040: Holding_spirit_loop_20
-    21300042: Holding_spirit_loop_21
-    21300044: Holding_spirit_loop_22
-    21300046: Holding_spirit_loop_23
-    21300048: Holding_spirit_loop_24
+    21300000: SPIRIT_BALL_sprites_0
+    21300002: SPIRIT_BALL_sprites_1
+    21300004: SPIRIT_BALL_sprites_2
+    21300006: SPIRIT_BALL_sprites_3
+    21300008: SPIRIT_BALL_sprites_4
+    21300010: SPIRIT_BALL_sprites_5
+    21300012: SPIRIT_BALL_sprites_6
+    21300014: SPIRIT_BALL_sprites_7
+    21300016: SPIRIT_BALL_sprites_8
+    21300018: SPIRIT_BALL_sprites_9
+    21300020: SPIRIT_BALL_sprites_10
+    21300022: SPIRIT_BALL_sprites_11
+    21300024: SPIRIT_BALL_sprites_12
+    21300026: SPIRIT_BALL_sprites_13
+    21300028: SPIRIT_BALL_sprites_14
+    21300030: SPIRIT_BALL_sprites_15
+    21300032: SPIRIT_BALL_sprites_16
+    21300034: SPIRIT_BALL_sprites_17
+    21300036: SPIRIT_BALL_sprites_18
+    21300038: SPIRIT_BALL_sprites_19
+    21300040: SPIRIT_BALL_sprites_20
+    21300042: SPIRIT_BALL_sprites_21
+    21300044: SPIRIT_BALL_sprites_22
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -75,253 +73,233 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Holding_spirit_loop_0
+    - name: SPIRIT_BALL_sprites_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 921
-        width: 95
-        height: 101
+        x: 25
+        y: 932
+        width: 212
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_1
+    - name: SPIRIT_BALL_sprites_1
       rect:
         serializedVersion: 2
-        x: 99
-        y: 921
-        width: 95
-        height: 101
+        x: 271
+        y: 928
+        width: 213
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_2
+    - name: SPIRIT_BALL_sprites_2
       rect:
         serializedVersion: 2
-        x: 198
-        y: 921
-        width: 95
-        height: 101
+        x: 511
+        y: 930
+        width: 219
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_3
+    - name: SPIRIT_BALL_sprites_3
       rect:
         serializedVersion: 2
-        x: 297
-        y: 921
-        width: 95
-        height: 101
+        x: 752
+        y: 930
+        width: 224
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_4
+    - name: SPIRIT_BALL_sprites_4
       rect:
         serializedVersion: 2
-        x: 396
-        y: 921
-        width: 95
-        height: 101
+        x: 16
+        y: 827
+        width: 224
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_5
+    - name: SPIRIT_BALL_sprites_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 817
-        width: 95
-        height: 101
+        x: 255
+        y: 827
+        width: 233
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIRIT_BALL_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 824
+        width: 241
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_6
+    - name: SPIRIT_BALL_sprites_7
       rect:
         serializedVersion: 2
-        x: 99
-        y: 817
-        width: 95
-        height: 101
+        x: 740
+        y: 824
+        width: 240
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_7
+    - name: SPIRIT_BALL_sprites_8
       rect:
         serializedVersion: 2
-        x: 198
-        y: 817
-        width: 95
-        height: 101
+        x: 2
+        y: 720
+        width: 239
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_8
+    - name: SPIRIT_BALL_sprites_9
       rect:
         serializedVersion: 2
-        x: 297
-        y: 817
-        width: 95
-        height: 101
+        x: 250
+        y: 720
+        width: 238
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_9
+    - name: SPIRIT_BALL_sprites_10
       rect:
         serializedVersion: 2
-        x: 396
-        y: 817
-        width: 95
-        height: 101
+        x: 502
+        y: 720
+        width: 234
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_10
+    - name: SPIRIT_BALL_sprites_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 713
-        width: 95
-        height: 101
+        x: 763
+        y: 720
+        width: 218
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_11
+    - name: SPIRIT_BALL_sprites_12
       rect:
         serializedVersion: 2
-        x: 99
-        y: 713
-        width: 95
-        height: 101
+        x: 24
+        y: 616
+        width: 220
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_12
+    - name: SPIRIT_BALL_sprites_13
       rect:
         serializedVersion: 2
-        x: 198
-        y: 713
-        width: 95
-        height: 101
+        x: 264
+        y: 616
+        width: 225
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_13
+    - name: SPIRIT_BALL_sprites_14
       rect:
         serializedVersion: 2
-        x: 297
-        y: 713
-        width: 95
-        height: 101
+        x: 504
+        y: 616
+        width: 229
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_14
+    - name: SPIRIT_BALL_sprites_15
       rect:
         serializedVersion: 2
-        x: 396
-        y: 713
-        width: 95
-        height: 101
+        x: 756
+        y: 619
+        width: 224
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_15
+    - name: SPIRIT_BALL_sprites_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 609
-        width: 95
-        height: 101
+        x: 9
+        y: 515
+        width: 231
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_16
+    - name: SPIRIT_BALL_sprites_17
       rect:
         serializedVersion: 2
-        x: 99
-        y: 609
-        width: 95
-        height: 101
+        x: 245
+        y: 512
+        width: 241
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_17
+    - name: SPIRIT_BALL_sprites_18
       rect:
         serializedVersion: 2
-        x: 198
-        y: 609
-        width: 95
-        height: 101
+        x: 492
+        y: 510
+        width: 240
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_18
+    - name: SPIRIT_BALL_sprites_19
       rect:
         serializedVersion: 2
-        x: 297
-        y: 609
-        width: 95
-        height: 101
+        x: 740
+        y: 512
+        width: 237
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_19
+    - name: SPIRIT_BALL_sprites_20
       rect:
         serializedVersion: 2
-        x: 396
-        y: 609
-        width: 95
-        height: 101
+        x: 4
+        y: 412
+        width: 236
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_20
+    - name: SPIRIT_BALL_sprites_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 505
-        width: 95
-        height: 101
+        x: 255
+        y: 412
+        width: 229
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_21
+    - name: SPIRIT_BALL_sprites_22
       rect:
         serializedVersion: 2
-        x: 99
-        y: 505
-        width: 95
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_22
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 505
-        width: 95
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_23
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 505
-        width: 95
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Holding_spirit_loop_24
-      rect:
-        serializedVersion: 2
-        x: 396
-        y: 505
-        width: 95
-        height: 101
+        x: 517
+        y: 412
+        width: 212
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
