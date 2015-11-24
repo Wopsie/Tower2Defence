@@ -27,13 +27,6 @@ public class Enemy : Health
             owner = GameObject.FindGameObjectWithTag("WestBase");
         }
 
-
-        //spawnEnemy = owner.GetComponent<SpawnEnemy>();
-        //set target
-        //Target = owner.GetComponentInChildren<SpawnEnemy>().eTarget;
-        //Target = spawnEnemy.Target;
-        
-
         rb = GetComponent<Rigidbody2D>();
         baseHealth = 2;
     }

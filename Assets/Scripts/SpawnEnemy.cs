@@ -61,7 +61,7 @@ public class SpawnEnemy : MonoBehaviour
         else if (spawnCooldown <= 0 && targeter == 3)
         {
             //do nothing
-            Debug.Log("doing nothing");
+            //Debug.Log("doing nothing");
         }
 
         //decrement spawner cooldown
