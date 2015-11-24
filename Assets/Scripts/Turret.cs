@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class Turret : MonoBehaviour 
 {
+	public MoneyScript moneyScript;
     private bool enemyInRange;
     private int shotCooldown;
     private int spiritCount;
@@ -36,7 +37,8 @@ public class Turret : MonoBehaviour
 
     void Update()
     {
-        Shoot();
+		Shoot();
+
     }
 
     void FixedUpdate()
@@ -44,7 +46,7 @@ public class Turret : MonoBehaviour
         shotCooldown--;
     }
 
-    void Shoot()
+    public void Shoot()
     {
         //determine turret range with overlap circle
         Collider2D turretRange = Physics2D.OverlapCircle(transform.position, 1.95f, layerMask);
@@ -58,10 +60,12 @@ public class Turret : MonoBehaviour
             {
                 if (upgradeCount == 0)
                 {
+
                     shotCooldown = 6;
 
                     //spawn bullet
                     var clone = (GameObject)Instantiate(shooter[shoot], transform.position, Quaternion.identity);
+					moneyScript.AddMoney();
                 }
                 else if (upgradeCount == 1)
                 {
@@ -71,6 +75,7 @@ public class Turret : MonoBehaviour
             }
             //determine the target
             intruder = turretRange.transform;
+
         }
         else
         {
