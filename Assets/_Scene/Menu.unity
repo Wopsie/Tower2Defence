@@ -844,7 +844,7 @@ GameObject:
   - 224: {fileID: 1580886713}
   - 95: {fileID: 1580886715}
   - 212: {fileID: 1580886714}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Cloth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
