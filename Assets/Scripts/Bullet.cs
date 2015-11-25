@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Bullet : MonoBehaviour {
 
-    private Transform target;
+    [SerializeField]    private Transform target;
 
     void Start()
     {
