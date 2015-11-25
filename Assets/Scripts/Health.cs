@@ -3,20 +3,22 @@ using System.Collections;
 
 public class Health : MonoBehaviour {
 
-	protected int baseHealth;
+	public int baseHealth;
+	public int enemyHealth;
+	public int playerBaseHealth;
 
 	// Use this for initialization
 	void Start () {
 
 	}
+
+	void playerHealth()
+	{
+
+	}
 	
 	// Update is called once per frame
 	void Update () {
-
-	}
-
-	void healthChecker()
-	{
 
 	}
 

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class Enemy : Health
 {
+	public MoneyScript moneyScript;
     private Rigidbody2D rb;
     private float speed;
 
@@ -28,7 +29,7 @@ public class Enemy : Health
         }
 
         rb = GetComponent<Rigidbody2D>();
-        baseHealth = 2;
+        enemyHealth = 10;
     }
 
     void Update()
@@ -54,10 +55,12 @@ public class Enemy : Health
     {
         if(coll.gameObject.tag == "Bullet")
         { 
-            baseHealth--;
+            enemyHealth--;
+			Debug.Log ("enemyHealth " + enemyHealth);
 
-            if(baseHealth == 0)
+            if(enemyHealth == 0)
             {
+				//moneyScript.AddMoney();
                 Destroy(gameObject);
             }
         }
