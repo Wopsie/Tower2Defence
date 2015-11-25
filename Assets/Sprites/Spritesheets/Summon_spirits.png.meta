@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bc736fa40c842e44c9fad1b05f236bb5
-timeCreated: 1448355352
+timeCreated: 1448480919
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -92,7 +92,7 @@ TextureImporter:
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_1
       rect:
@@ -102,7 +102,7 @@ TextureImporter:
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_2
       rect:
@@ -112,7 +112,7 @@ TextureImporter:
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_3
       rect:
@@ -122,7 +122,7 @@ TextureImporter:
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_4
       rect:
@@ -132,7 +132,7 @@ TextureImporter:
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_5
       rect:
@@ -142,187 +142,187 @@ TextureImporter:
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 815
+        y: 816
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_7
       rect:
         serializedVersion: 2
         x: 85
-        y: 815
+        y: 816
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_8
       rect:
         serializedVersion: 2
         x: 170
-        y: 815
+        y: 816
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_9
       rect:
         serializedVersion: 2
         x: 255
-        y: 815
+        y: 816
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_10
       rect:
         serializedVersion: 2
         x: 340
-        y: 815
+        y: 816
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_11
       rect:
         serializedVersion: 2
         x: 425
-        y: 815
+        y: 816
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 710
+        y: 712
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_13
       rect:
         serializedVersion: 2
         x: 85
-        y: 710
+        y: 712
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_14
       rect:
         serializedVersion: 2
         x: 170
-        y: 710
+        y: 712
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_15
       rect:
         serializedVersion: 2
         x: 255
-        y: 710
+        y: 712
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_16
       rect:
         serializedVersion: 2
         x: 340
-        y: 710
+        y: 712
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_17
       rect:
         serializedVersion: 2
         x: 425
-        y: 710
+        y: 712
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_18
       rect:
         serializedVersion: 2
         x: 0
-        y: 605
+        y: 608
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_19
       rect:
         serializedVersion: 2
         x: 85
-        y: 605
+        y: 608
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_20
       rect:
         serializedVersion: 2
         x: 170
-        y: 605
+        y: 608
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_21
       rect:
         serializedVersion: 2
-        x: 255
-        y: 605
+        x: 256
+        y: 608
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_22
       rect:
         serializedVersion: 2
         x: 340
-        y: 605
+        y: 608
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_23
       rect:
         serializedVersion: 2
         x: 425
-        y: 605
+        y: 608
         width: 85
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_24
       rect:
@@ -330,17 +330,17 @@ TextureImporter:
         x: 0
         y: 503
         width: 85
-        height: 101
+        height: 104
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_25
       rect:
         serializedVersion: 2
-        x: 87
-        y: 502
-        width: 88
-        height: 102
+        x: 85
+        y: 504
+        width: 90
+        height: 104
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,29 +348,29 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 180
-        y: 502
-        width: 92
-        height: 102
+        y: 503
+        width: 91
+        height: 104
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_27
       rect:
         serializedVersion: 2
-        x: 280
-        y: 502
-        width: 89
-        height: 102
+        x: 277
+        y: 505
+        width: 92
+        height: 104
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_28
       rect:
         serializedVersion: 2
-        x: 373
-        y: 503
-        width: 91
-        height: 101
+        x: 371
+        y: 505
+        width: 90
+        height: 104
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,19 +378,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 401
+        y: 400
         width: 85
-        height: 100
+        height: 104
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_30
       rect:
         serializedVersion: 2
-        x: 89
-        y: 402
-        width: 82
-        height: 99
+        x: 88
+        y: 399
+        width: 85
+        height: 104
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -398,19 +398,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 175
-        y: 402
-        width: 81
-        height: 99
+        y: 399
+        width: 85
+        height: 104
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Summon_spirits_32
       rect:
         serializedVersion: 2
-        x: 260
-        y: 402
-        width: 81
-        height: 99
+        x: 261
+        y: 399
+        width: 85
+        height: 104
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,9 +418,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 345
-        y: 402
-        width: 81
-        height: 99
+        y: 399
+        width: 85
+        height: 104
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

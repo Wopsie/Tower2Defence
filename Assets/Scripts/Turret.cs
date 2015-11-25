@@ -12,9 +12,8 @@ public class Turret : MonoBehaviour
 
     [SerializeField]    private string friendly;
 
-    public static Transform intruder;
+    private Transform intruder;
 
-    private int upgradeCount = 0;
     private int layerMask;
 
     public enum Projectile
@@ -36,7 +35,7 @@ public class Turret : MonoBehaviour
     void Update()
     {
 		Shoot();
-
+        
     }
 
     void FixedUpdate()
@@ -49,6 +48,7 @@ public class Turret : MonoBehaviour
         //determine turret range with overlap circle
         Collider2D turretRange = Physics2D.OverlapCircle(transform.position, 1.95f, layerMask);
 
+        Debug.Log(gameObject + " target: " + turretRange.gameObject.tag);
         if (turretRange.gameObject.tag != friendly && turretRange != null)
         {
             enemyInRange = true;
@@ -56,26 +56,19 @@ public class Turret : MonoBehaviour
             //check if can shoot
             if (enemyInRange = true && shotCooldown <= 0)
             {
-                if (upgradeCount == 0)
-                {
+                shotCooldown = 6;
 
-                    shotCooldown = 6;
-
-                    //spawn bullet
-                    var clone = (GameObject)Instantiate(shooter[shoot], transform.position, Quaternion.identity);
-					moneyScript.AddMoney();
-                }
-                else if (upgradeCount == 1)
-                {
-                    shotCooldown = 5;
-                    var clone = (GameObject)Instantiate(shooter[shoot], transform.position, Quaternion.identity);
-                }
+                //spawn bullet
+                var clone = (GameObject)Instantiate(shooter[shoot], transform.position, Quaternion.identity);
+                clone.GetComponent<Bullet>().target = intruder;
+			    moneyScript.AddMoney();
+                
             }
             //determine the target
             intruder = turretRange.transform;
 
         }
-        else
+        else if(turretRange.gameObject.tag == null)
         {
             enemyInRange = false;
         }

@@ -41,7 +41,7 @@ public class DirectionButton : MonoBehaviour
                 pTarget = GameObject.FindGameObjectWithTag("NorthBase").transform;
                 break;
             case 4:
-                Debug.Log("Upgrade turrets");
+                //Debug.Log("Upgrade turrets");
                 break;
         }
     }

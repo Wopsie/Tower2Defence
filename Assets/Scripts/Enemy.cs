@@ -28,7 +28,7 @@ public class Enemy : Health
         }
 
         rb = GetComponent<Rigidbody2D>();
-        baseHealth = 2;
+        baseHealth = 8;
     }
 
     void Update()

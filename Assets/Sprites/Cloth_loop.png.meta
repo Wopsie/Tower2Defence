@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d5a1979b1672db74faf2b10aec6f0201
-timeCreated: 1448371600
+timeCreated: 1448458706
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -88,8 +88,8 @@ TextureImporter:
         y: 7346
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_1
       rect:
@@ -98,8 +98,8 @@ TextureImporter:
         y: 7346
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_2
       rect:
@@ -108,8 +108,8 @@ TextureImporter:
         y: 7346
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_3
       rect:
@@ -118,8 +118,8 @@ TextureImporter:
         y: 7346
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_4
       rect:
@@ -128,8 +128,8 @@ TextureImporter:
         y: 7346
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_5
       rect:
@@ -138,8 +138,8 @@ TextureImporter:
         y: 7346
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_6
       rect:
@@ -148,8 +148,8 @@ TextureImporter:
         y: 7346
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_7
       rect:
@@ -158,8 +158,8 @@ TextureImporter:
         y: 6462
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_8
       rect:
@@ -168,8 +168,8 @@ TextureImporter:
         y: 6462
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_9
       rect:
@@ -178,8 +178,8 @@ TextureImporter:
         y: 6462
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_10
       rect:
@@ -188,8 +188,8 @@ TextureImporter:
         y: 6462
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_11
       rect:
@@ -198,8 +198,8 @@ TextureImporter:
         y: 6462
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_12
       rect:
@@ -208,8 +208,8 @@ TextureImporter:
         y: 6462
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_13
       rect:
@@ -218,8 +218,8 @@ TextureImporter:
         y: 6462
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_14
       rect:
@@ -228,8 +228,8 @@ TextureImporter:
         y: 5578
         width: 412
         height: 807
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_15
       rect:
@@ -238,8 +238,8 @@ TextureImporter:
         y: 5578
         width: 412
         height: 807
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_16
       rect:
@@ -248,8 +248,8 @@ TextureImporter:
         y: 5578
         width: 412
         height: 807
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_17
       rect:
@@ -258,8 +258,8 @@ TextureImporter:
         y: 5578
         width: 412
         height: 807
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_18
       rect:
@@ -268,8 +268,8 @@ TextureImporter:
         y: 5578
         width: 412
         height: 807
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_19
       rect:
@@ -278,8 +278,8 @@ TextureImporter:
         y: 5578
         width: 412
         height: 807
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_20
       rect:
@@ -288,8 +288,8 @@ TextureImporter:
         y: 5578
         width: 412
         height: 807
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_21
       rect:
@@ -298,8 +298,8 @@ TextureImporter:
         y: 4698
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_22
       rect:
@@ -308,8 +308,8 @@ TextureImporter:
         y: 4698
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_23
       rect:
@@ -318,8 +318,8 @@ TextureImporter:
         y: 4698
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_24
       rect:
@@ -328,8 +328,8 @@ TextureImporter:
         y: 4698
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_25
       rect:
@@ -338,8 +338,8 @@ TextureImporter:
         y: 4698
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_26
       rect:
@@ -348,8 +348,8 @@ TextureImporter:
         y: 4698
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_27
       rect:
@@ -358,8 +358,8 @@ TextureImporter:
         y: 4698
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_28
       rect:
@@ -368,8 +368,8 @@ TextureImporter:
         y: 3814
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_29
       rect:
@@ -378,8 +378,8 @@ TextureImporter:
         y: 3814
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Cloth_loop_30
       rect:
@@ -388,8 +388,8 @@ TextureImporter:
         y: 3814
         width: 412
         height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

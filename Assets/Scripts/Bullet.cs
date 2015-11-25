@@ -3,12 +3,13 @@ using System.Collections;
 
 public class Bullet : MonoBehaviour {
 
-    [SerializeField]    private Transform target;
+    //[HideInInspector]    
+    public Transform target;
 
     void Start()
     {
         //set target
-        target = Turret.intruder;
+        
     }
 
 	void Update () 
@@ -24,7 +25,7 @@ public class Bullet : MonoBehaviour {
 
         //rotate bullet to target
         Quaternion rotation = Quaternion.LookRotation
-            (Turret.intruder.transform.position - transform.position, transform.TransformDirection(Vector3.up));
+            (target.position - transform.position, transform.TransformDirection(Vector3.up));
         transform.rotation = new Quaternion(0, 0, rotation.z, rotation.w);
 	}
 
