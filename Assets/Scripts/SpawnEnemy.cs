@@ -15,6 +15,8 @@ public class SpawnEnemy : MonoBehaviour
 
     private Transform eTarget;
 
+    private Animator anim;
+
     public enum Spawns
     {
         Spirit,
@@ -28,10 +30,11 @@ public class SpawnEnemy : MonoBehaviour
     {
         //add objects to dictionary
         spawner.Add(Spawns.Spirit, enemy);
-        //spawner.Add(Spawns.Barrier, forceField);
 
         //identify self
         thisBase = gameObject.transform;
+
+        anim = GetComponent<Animator>();
 	}
 	
 	void Update ()
@@ -64,6 +67,8 @@ public class SpawnEnemy : MonoBehaviour
             //Debug.Log("doing nothing");
         }
 
+        
+
         //decrement spawner cooldown
         spawnCooldown -= Time.deltaTime;
         if (spawnCooldown <= 0)
@@ -74,10 +79,13 @@ public class SpawnEnemy : MonoBehaviour
     void Spawner()
     {
         spawnCooldown = 5;
+        anim.SetBool("spawnSpirit", true);
         for(int i = 0; i < 5; i++)
         {
             var clone = (GameObject)Instantiate(spawner[spawns], transform.position, Quaternion.identity);
             clone.GetComponent<Enemy>().Target = eTarget;
         }
+
+        anim.SetBool("spawnSpirit", false);
     }
 }

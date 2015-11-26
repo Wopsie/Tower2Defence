@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: 8b7e91f2a31a5a64db779d5caa13abd6
+timeCreated: 1448535816
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: EnemyPot_59
+    21300002: EnemyPot_60
+    21300004: EnemyPot_61
+    21300006: EnemyPot_62
+    21300008: EnemyPot_63
+    21300010: EnemyPot_64
+    21300012: EnemyPot_65
+    21300014: EnemyPot_66
+    21300016: EnemyPot_76
+    21300018: EnemyPot_77
+    21300020: EnemyPot_78
+    21300022: EnemyPot_79
+    21300024: EnemyPot_80
+    21300026: EnemyPot_81
+    21300028: EnemyPot_82
+    21300030: EnemyPot_83
+    21300032: EnemyPot_94
+    21300034: EnemyPot_95
+    21300036: EnemyPot_96
+    21300038: EnemyPot_97
+    21300040: EnemyPot_98
+    21300042: EnemyPot_99
+    21300044: EnemyPot_100
+    21300046: EnemyPot_101
+    21300048: EnemyPot_105
+    21300050: EnemyPot_106
+    21300052: EnemyPot_107
+    21300054: EnemyPot_108
+    21300056: EnemyPot_109
+    21300058: EnemyPot_110
+    21300060: EnemyPot_111
+    21300062: EnemyPot_112
+    21300064: EnemyPot_115
+    21300066: EnemyPot_116
+    21300068: EnemyPot_117
+    21300070: EnemyPot_118
+    21300072: EnemyPot_119
+    21300074: EnemyPot_120
+    21300076: EnemyPot_121
+    21300078: EnemyPot_122
+    21300080: EnemyPot_124
+    21300082: EnemyPot_125
+    21300084: EnemyPot_126
+    21300086: EnemyPot_127
+    21300088: EnemyPot_128
+    21300090: EnemyPot_129
+    21300092: EnemyPot_130
+    21300094: EnemyPot_131
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: EnemyPot_59
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 838
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_60
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 838
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_61
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 838
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_62
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 838
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_63
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 838
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_64
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 838
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_65
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 838
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_66
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 838
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_76
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 738
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_77
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 738
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_78
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 738
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_79
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 738
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_80
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 738
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_81
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 738
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_82
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 738
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_83
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 738
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_94
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 638
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_95
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 638
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_96
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 638
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_97
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 638
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_98
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 638
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_99
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 638
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_100
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 638
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_101
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 638
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_105
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 527
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_106
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 527
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_107
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 527
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_108
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 527
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_109
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 528
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_110
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 527
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_111
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 527
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_112
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 527
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_115
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_116
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_117
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_118
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_119
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_120
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_121
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_122
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 425
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_124
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 325
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_125
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 325
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_126
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 325
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_127
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 325
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_128
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 325
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_129
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 325
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_130
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 325
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot_131
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 325
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

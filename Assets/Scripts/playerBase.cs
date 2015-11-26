@@ -18,6 +18,7 @@ public class playerBase : Health
         if(baseHealth <= 0)
         {
             Debug.Log("JE BENT HARSTIKKE DOOD");
+            //go to gameoverscreen
             Application.LoadLevel(2);
         }
     }

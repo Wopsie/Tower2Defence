@@ -1,0 +1,903 @@
+fileFormatVersion: 2
+guid: d27b899f696e07d4f8c700bfc7b9ba53
+timeCreated: 1448536149
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: EnemyPot - Copy_0
+    21300002: EnemyPot - Copy_1
+    21300004: EnemyPot - Copy_2
+    21300006: EnemyPot - Copy_3
+    21300008: EnemyPot - Copy_4
+    21300010: EnemyPot - Copy_5
+    21300012: EnemyPot - Copy_8
+    21300014: EnemyPot - Copy_9
+    21300016: EnemyPot - Copy_10
+    21300018: EnemyPot - Copy_11
+    21300020: EnemyPot - Copy_12
+    21300022: EnemyPot - Copy_13
+    21300024: EnemyPot - Copy_14
+    21300026: EnemyPot - Copy_15
+    21300028: EnemyPot - Copy_16
+    21300030: EnemyPot - Copy_17
+    21300032: EnemyPot - Copy_18
+    21300034: EnemyPot - Copy_19
+    21300036: EnemyPot - Copy_20
+    21300038: EnemyPot - Copy_21
+    21300040: EnemyPot - Copy_22
+    21300042: EnemyPot - Copy_23
+    21300044: EnemyPot - Copy_24
+    21300046: EnemyPot - Copy_25
+    21300048: EnemyPot - Copy_34
+    21300050: EnemyPot - Copy_35
+    21300052: EnemyPot - Copy_36
+    21300054: EnemyPot - Copy_37
+    21300056: EnemyPot - Copy_38
+    21300058: EnemyPot - Copy_39
+    21300060: EnemyPot - Copy_42
+    21300062: EnemyPot - Copy_43
+    21300064: EnemyPot - Copy_44
+    21300066: EnemyPot - Copy_45
+    21300068: EnemyPot - Copy_46
+    21300070: EnemyPot - Copy_47
+    21300072: EnemyPot - Copy_48
+    21300074: EnemyPot - Copy_49
+    21300076: EnemyPot - Copy_51
+    21300078: EnemyPot - Copy_52
+    21300080: EnemyPot - Copy_53
+    21300082: EnemyPot - Copy_54
+    21300084: EnemyPot - Copy_55
+    21300086: EnemyPot - Copy_56
+    21300088: EnemyPot - Copy_57
+    21300090: EnemyPot - Copy_58
+    21300092: EnemyPot - Copy_59
+    21300094: EnemyPot - Copy_60
+    21300096: EnemyPot - Copy_61
+    21300098: EnemyPot - Copy_62
+    21300100: EnemyPot - Copy_63
+    21300102: EnemyPot - Copy_64
+    21300104: EnemyPot - Copy_65
+    21300106: EnemyPot - Copy_66
+    21300108: EnemyPot - Copy_67
+    21300110: EnemyPot - Copy_68
+    21300112: EnemyPot - Copy_69
+    21300114: EnemyPot - Copy_70
+    21300116: EnemyPot - Copy_71
+    21300118: EnemyPot - Copy_72
+    21300120: EnemyPot - Copy_73
+    21300122: EnemyPot - Copy_74
+    21300124: EnemyPot - Copy_75
+    21300126: EnemyPot - Copy_76
+    21300128: EnemyPot - Copy_77
+    21300130: EnemyPot - Copy_78
+    21300132: EnemyPot - Copy_79
+    21300134: EnemyPot - Copy_80
+    21300136: EnemyPot - Copy_81
+    21300138: EnemyPot - Copy_82
+    21300140: EnemyPot - Copy_99
+    21300142: EnemyPot - Copy_100
+    21300144: EnemyPot - Copy_101
+    21300146: EnemyPot - Copy_102
+    21300148: EnemyPot - Copy_103
+    21300150: EnemyPot - Copy_104
+    21300152: EnemyPot - Copy_133
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: EnemyPot - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1600
+        width: 83
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1600
+        width: 83
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1596
+        width: 79
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1600
+        width: 83
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1600
+        width: 83
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1596
+        width: 78
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1558
+        width: 79
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1561
+        width: 87
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1561
+        width: 86
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1558
+        width: 79
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1560
+        width: 87
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1561
+        width: 87
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1521
+        width: 76
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1521
+        width: 77
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1520
+        width: 80
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_17
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1521
+        width: 76
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_18
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1521
+        width: 76
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_19
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1520
+        width: 79
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_20
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1480
+        width: 79
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_21
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1482
+        width: 84
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_22
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1482
+        width: 84
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_23
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1480
+        width: 80
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_24
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1482
+        width: 85
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_25
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1482
+        width: 84
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_34
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1442
+        width: 81
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_35
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1442
+        width: 82
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_36
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1444
+        width: 80
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_37
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1442
+        width: 82
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_38
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1442
+        width: 82
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_39
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1444
+        width: 79
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_42
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1404
+        width: 79
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_43
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1404
+        width: 81
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_44
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1353
+        width: 83
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_45
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1353
+        width: 83
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_46
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1349
+        width: 79
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_47
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1353
+        width: 83
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_48
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1353
+        width: 83
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_49
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1349
+        width: 78
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_51
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1310
+        width: 79
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_52
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1313
+        width: 87
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_53
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1314
+        width: 86
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_54
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1310
+        width: 79
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_55
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1313
+        width: 87
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_56
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1314
+        width: 87
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_57
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1274
+        width: 76
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_58
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1274
+        width: 77
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_59
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1273
+        width: 80
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_60
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1274
+        width: 76
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_61
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1274
+        width: 76
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_62
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1273
+        width: 79
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_63
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1233
+        width: 79
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_64
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1235
+        width: 84
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_65
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1235
+        width: 84
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_66
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1233
+        width: 80
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_67
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1235
+        width: 85
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_68
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1235
+        width: 84
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_69
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1195
+        width: 81
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_70
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1195
+        width: 82
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_71
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1196
+        width: 80
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_72
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1195
+        width: 82
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_73
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1195
+        width: 82
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_74
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1196
+        width: 79
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_75
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1157
+        width: 79
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_76
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1157
+        width: 81
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_77
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1046
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_78
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1044
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_79
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1042
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_80
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1041
+        width: 55
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_81
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1039
+        width: 51
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_82
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 1042
+        width: 58
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_99
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 833
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_100
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 823
+        width: 77
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_101
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 814
+        width: 91
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_102
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 803
+        width: 105
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_103
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 796
+        width: 116
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_104
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 785
+        width: 126
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyPot - Copy_133
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 565
+        width: 139
+        height: 192
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
