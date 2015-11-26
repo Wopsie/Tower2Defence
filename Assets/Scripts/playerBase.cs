@@ -3,11 +3,12 @@ using System.Collections;
 
 public class playerBase : Health
 {
-    private int invincibility;
+    private float invincibility;
+    
 
     void Start()
     {
-        baseHealth = 500;
+        baseHealth = 150;
     }
 
     void FixedUpdate()
@@ -17,16 +18,24 @@ public class playerBase : Health
         if(baseHealth <= 0)
         {
             Debug.Log("JE BENT HARSTIKKE DOOD");
+            Application.LoadLevel(2);
         }
+    }
+
+    void Update()
+    {
+        invincibility -= Time.deltaTime;
+        if (invincibility <= 0)
+            invincibility = 0;
     }
 
     void OnCollisionStay2D(Collision2D coll)
     {
-        if (coll.gameObject.tag == "Spirit" && invincibility <= 0)
+        if (coll.gameObject.tag != "SouthSpirit" && invincibility <= 0)
         {
-            //invincibility = 10;
+            invincibility = 10;
             baseHealth--;
         }
-        //Debug.Log(baseHealth);
+        Debug.Log(baseHealth);
     }
 }

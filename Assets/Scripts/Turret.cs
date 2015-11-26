@@ -48,7 +48,6 @@ public class Turret : MonoBehaviour
         //determine turret range with overlap circle
         Collider2D turretRange = Physics2D.OverlapCircle(transform.position, 1.95f, layerMask);
 
-        Debug.Log(gameObject + " target: " + turretRange.gameObject.tag);
         if (turretRange.gameObject.tag != friendly && turretRange != null)
         {
             enemyInRange = true;
@@ -60,6 +59,7 @@ public class Turret : MonoBehaviour
 
                 //spawn bullet
                 var clone = (GameObject)Instantiate(shooter[shoot], transform.position, Quaternion.identity);
+                //pass target to enemy
                 clone.GetComponent<Bullet>().target = intruder;
 			    moneyScript.AddMoney();
                 
