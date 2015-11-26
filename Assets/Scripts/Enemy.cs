@@ -51,6 +51,7 @@ public class Enemy : Health
         }
     }
 
+
     //check for collision
     void OnCollisionEnter2D(Collision2D coll)
     {
