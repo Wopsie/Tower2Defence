@@ -8,12 +8,13 @@ public class SpawnTroops : SpawnEnemy {
 	void Start () 
     {
         spawner.Add(Spawns.Spirit, spirit);
+        spawnCooldown = 2;
 	}
 
     void Update()
     {
         //spawn enemy on buttonpress
-        if (DirectionButton.pTarget != null && spawnCooldown <= 0)
+        if (DirectionButton.pTarget != null && spawnCooldown <= 0 && MoneyScript.moneyCounter >= 10)
         {
             Spawner();
         }
@@ -31,6 +32,7 @@ public class SpawnTroops : SpawnEnemy {
         for (int i = 0; i < 5; i++)
         {
             var clone = (GameObject)Instantiate(spawner[spawns], transform.position, Quaternion.identity);
+            MoneyScript.moneyCounter -= 3;
         }
     }
 }

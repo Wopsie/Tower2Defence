@@ -6,6 +6,8 @@ public class Spirit : Enemy {
     private Transform playerTarget;
     private Rigidbody2D rb;
 
+    private MoneyScript moneyScript;
+
 	void Awake () 
     {
         //set target
@@ -40,6 +42,7 @@ public class Spirit : Enemy {
             if (baseHealth == 0)
             {
                 Destroy(gameObject);
+                MoneyScript.moneyCounter += 10;
             }
         }
     }

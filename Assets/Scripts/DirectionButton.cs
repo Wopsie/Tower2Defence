@@ -6,6 +6,8 @@ public class DirectionButton : MonoBehaviour
     private int buttonID;
     public static Transform pTarget;
 
+    [SerializeField]    private AudioSource clickSound;
+
 	void Start () 
     {
         //identify button
@@ -29,6 +31,8 @@ public class DirectionButton : MonoBehaviour
     //check whenever button is clicked
     void OnMouseDown()
     {
+        clickSound.Play();
+
         switch(buttonID)
         {
             case 1:

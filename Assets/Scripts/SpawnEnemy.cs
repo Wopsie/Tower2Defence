@@ -28,6 +28,7 @@ public class SpawnEnemy : MonoBehaviour
 
 	void Start () 
     {
+        spawnCooldown = 2;
         //add objects to dictionary
         spawner.Add(Spawns.Spirit, enemy);
 
@@ -67,8 +68,6 @@ public class SpawnEnemy : MonoBehaviour
             //Debug.Log("doing nothing");
         }
 
-        
-
         //decrement spawner cooldown
         spawnCooldown -= Time.deltaTime;
         if (spawnCooldown <= 0)
@@ -78,14 +77,11 @@ public class SpawnEnemy : MonoBehaviour
     //spawn enemy function
     void Spawner()
     {
-        spawnCooldown = 5;
-        anim.SetBool("spawnSpirit", true);
+        spawnCooldown = 3;
         for(int i = 0; i < 5; i++)
         {
             var clone = (GameObject)Instantiate(spawner[spawns], transform.position, Quaternion.identity);
             clone.GetComponent<Enemy>().Target = eTarget;
         }
-
-        anim.SetBool("spawnSpirit", false);
     }
 }

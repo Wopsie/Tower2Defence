@@ -1,27 +1,31 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class MoneyScript : MonoBehaviour {
 	
-	public int MoneyCounter = 0; //For defending your base
-	public int CreditCounter = 0; //For attacking another base
+	public static int moneyCounter = 0; //For defending your base
+
+    [SerializeField]    private GameObject moneyText;
+
+    void Start()
+    {
+        moneyCounter = 20;
+    }
+
+    void Awake()
+    {
+        moneyText = GameObject.Find("MoneyText");
+    }
+
+    void Update()
+    {
+        moneyText.gameObject.GetComponent<Text>().text = "Money: " + moneyCounter;
+        Debug.Log(moneyCounter);
+    }
 
 	public void AddMoney(){
-		MoneyCounter++;
-		Debug.Log("Money: " + MoneyCounter);
+		moneyCounter++;
+		Debug.Log("Money: " + moneyCounter);
 	}
-
-	public void AddCredits(){
-		CreditCounter++;
-		Debug.Log("Credits: " + CreditCounter);
-
-	}
-
-	void Update () {
-
-	}
-
-
-
-
 }

@@ -4,7 +4,6 @@ using System.Collections.Generic;
 
 public class Turret : MonoBehaviour 
 {
-	public MoneyScript moneyScript;
     private bool enemyInRange;
     private int shotCooldown;
     private int spiritCount;
@@ -61,7 +60,11 @@ public class Turret : MonoBehaviour
                 var clone = (GameObject)Instantiate(shooter[shoot], transform.position, Quaternion.identity);
                 //pass target to enemy
                 clone.GetComponent<Bullet>().target = intruder;
-			    moneyScript.AddMoney();
+			    
+                if(friendly == "SouthSpirit")
+                {
+                    MoneyScript.moneyCounter += 5;
+                }
                 
             }
             //determine the target

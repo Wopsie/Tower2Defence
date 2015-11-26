@@ -12,9 +12,13 @@ public class Enemy : Health
 
     [HideInInspector]   public Transform Target;
 
+    private Animator anim;
+
     private SpawnEnemy spawnEnemy;
     void Start()
     {
+        anim = GetComponent<Animator>();
+
         //identify owner
         if(gameObject.tag == "NorthEnemy")
         {
@@ -57,7 +61,7 @@ public class Enemy : Health
             baseHealth--;
 
             if(baseHealth == 0)
-            {
+            {   
                 Destroy(gameObject);
             }
         }

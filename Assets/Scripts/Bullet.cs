@@ -3,14 +3,7 @@ using System.Collections;
 
 public class Bullet : MonoBehaviour {
 
-    //[HideInInspector]    
-    public Transform target;
-
-    void Start()
-    {
-        //set target
-        
-    }
+    [HideInInspector]     public Transform target;
 
 	void Update () 
     {
