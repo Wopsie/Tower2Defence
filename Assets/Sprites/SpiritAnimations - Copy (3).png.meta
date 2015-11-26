@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: 78ecb510cee827a4d8f9d9169c6ca68d
+timeCreated: 1448372944
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SpiritAnimations - Copy (3)_46
+    21300002: SpiritAnimations - Copy (3)_47
+    21300004: SpiritAnimations - Copy (3)_48
+    21300006: SpiritAnimations - Copy (3)_49
+    21300008: SpiritAnimations - Copy (3)_54
+    21300010: SpiritAnimations - Copy (3)_55
+    21300012: SpiritAnimations - Copy (3)_56
+    21300014: SpiritAnimations - Copy (3)_57
+    21300016: SpiritAnimations - Copy (3)_62
+    21300018: SpiritAnimations - Copy (3)_63
+    21300020: SpiritAnimations - Copy (3)_64
+    21300022: SpiritAnimations - Copy (3)_65
+    21300024: SpiritAnimations - Copy (3)_70
+    21300026: SpiritAnimations - Copy (3)_71
+    21300028: SpiritAnimations - Copy (3)_72
+    21300030: SpiritAnimations - Copy (3)_73
+    21300032: SpiritAnimations - Copy (3)_78
+    21300034: SpiritAnimations - Copy (3)_79
+    21300036: SpiritAnimations - Copy (3)_80
+    21300038: SpiritAnimations - Copy (3)_81
+    21300040: SpiritAnimations - Copy (3)_83
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SpiritAnimations - Copy (3)_46
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 67
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_47
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 67
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_48
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 67
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_49
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 67
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_54
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 54
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_55
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 54
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_56
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 54
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_57
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 54
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_62
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 41
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_63
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 41
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_64
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 41
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_65
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 41
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_70
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 28
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_71
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 28
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_72
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 28
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_73
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 28
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_78
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 15
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_79
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 15
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_80
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 15
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_81
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 15
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpiritAnimations - Copy (3)_83
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

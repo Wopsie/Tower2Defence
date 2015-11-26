@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: bc736fa40c842e44c9fad1b05f236bb5
+timeCreated: 1448480919
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Summon_spirits_0
+    21300002: Summon_spirits_1
+    21300004: Summon_spirits_2
+    21300006: Summon_spirits_3
+    21300008: Summon_spirits_4
+    21300010: Summon_spirits_5
+    21300012: Summon_spirits_6
+    21300014: Summon_spirits_7
+    21300016: Summon_spirits_8
+    21300018: Summon_spirits_9
+    21300020: Summon_spirits_10
+    21300022: Summon_spirits_11
+    21300024: Summon_spirits_12
+    21300026: Summon_spirits_13
+    21300028: Summon_spirits_14
+    21300030: Summon_spirits_15
+    21300032: Summon_spirits_16
+    21300034: Summon_spirits_17
+    21300036: Summon_spirits_18
+    21300038: Summon_spirits_19
+    21300040: Summon_spirits_20
+    21300042: Summon_spirits_21
+    21300044: Summon_spirits_22
+    21300046: Summon_spirits_23
+    21300048: Summon_spirits_24
+    21300050: Summon_spirits_25
+    21300052: Summon_spirits_26
+    21300054: Summon_spirits_27
+    21300056: Summon_spirits_28
+    21300058: Summon_spirits_29
+    21300060: Summon_spirits_30
+    21300062: Summon_spirits_31
+    21300064: Summon_spirits_32
+    21300066: Summon_spirits_33
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Summon_spirits_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 920
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 920
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 920
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 920
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 920
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_5
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 920
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_7
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 816
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 816
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 816
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_10
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 816
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_11
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 816
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 712
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 712
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_14
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 712
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 712
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_16
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 712
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_17
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 712
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_19
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 608
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_20
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 608
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 608
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_22
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 608
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_23
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 608
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 503
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_25
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 504
+        width: 90
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 503
+        width: 91
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_27
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 505
+        width: 92
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_28
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 505
+        width: 90
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 400
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_30
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 399
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_31
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 399
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_32
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 399
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Summon_spirits_33
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 399
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
